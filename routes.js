@@ -12,6 +12,12 @@ module.exports = {
           index: true,
         }
       }
+    }, {
+      method: 'GET',
+      path: '/customers',
+      handler: function(request, h) {
+        return 'customers GET request';
+      }
     }]);
   },
   name: 'routes',
