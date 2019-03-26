@@ -3,10 +3,10 @@
 ![Codacy grade](https://img.shields.io/codacy/grade/798a0f243e51480187392f2b25bd7ac4.svg?logo=codacy&style=plastic)
 ![Codecov](https://img.shields.io/codecov/c/github/WebMatrixware/phone-hud.svg?logo=codecov&style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/WebMatrixware/phone-hud.svg?color=blue&logo=javascript&style=plastic)
+![Requires.io](https://img.shields.io/requires/github/WebMatrixware/phone-hud.svg?style=plastic)
+[![Greenkeeper badge](https://badges.greenkeeper.io/WebMatrixware/phone-hud.svg)](https://greenkeeper.io/)
 
 # Phone HUD
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/WebMatrixware/phone-hud.svg)](https://greenkeeper.io/)
 
 ## Phone Heads Up Display
 
