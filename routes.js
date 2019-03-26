@@ -1,5 +1,7 @@
 'use strict';
 
+const customersHandlers = require('./handlers/customers.js');
+
 module.exports = {
   register: async (server, options) => {
     server.route([{
@@ -15,9 +17,7 @@ module.exports = {
     }, {
       method: 'GET',
       path: '/customers',
-      handler: function(request, h) {
-        return 'customers GET request';
-      }
+      handler: customersHandlers.getCustomers
     }]);
   },
   name: 'routes',
