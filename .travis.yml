@@ -3,11 +3,12 @@ language: node_js
 node_js:
   - "node"
 
-#env:
-#  - CODECOV_TOKEN="c98927b6-9756-47d6-b9d2-2a13f649b93b"
+env:
+  - CODECOV_TOKEN="c98927b6-9756-47d6-b9d2-2a13f649b93b"
 
-#install:
-#  - npm install -g codecov istanbul
+install:
+  - npm install -g codecov
+  #istanbul
 
 script:
   - npm test
