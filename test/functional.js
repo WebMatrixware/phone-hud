@@ -17,4 +17,14 @@ describe('functional test', () => {
 
     expect(response.statusCode).to.equal(200);
   });
+
+  it('should return 200 on customers route', async () => {
+
+    const response = await Server.inject({
+      method: 'GET',
+      url: '/customers'
+    });
+
+    expect(response.statusCode).to.equal(200);
+  });
 });
