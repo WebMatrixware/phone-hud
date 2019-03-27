@@ -96,10 +96,10 @@ VALUES
 
 INSERT INTO `contacts` (`contactFName`, `contactMI`, `contactLName`, `contactPhone`, `contactMobile`, `contactEmail`)
 VALUES
-('Ben', NULL, 'Lanning', '6073476139', '6072272531', 'blanning@all-mode.com'),
-('Mike', NULL, 'Almeida', '6073476138', '6073470580', 'malmeida@all-mode.com'),
-('Rick', NULL, 'Beck', '6073476124', '6072270592', 'rbeck@all-mode.com'),
-('Dale', NULL, 'Cotterill', '6073476134', '6073270876', 'dcotterill@all-mode.com');
+('Ben', NULL, 'Lanning', '5555555555', '5555555555', 'blanning[at]all-mode.com'),
+('Mike', NULL, 'Almeida', '5555555555', '5555555555', 'malmeida[at]all-mode.com'),
+('Rick', NULL, 'Beck', '5555555555', '5555555555', 'rbeck[at]all-mode.com'),
+('Dale', NULL, 'Cotterill', '5555555555', '5555555555', 'dcotterill[at]all-mode.com');
 
 INSERT INTO `clients` (`clientName`, `clientNumber`, `clientDateAdded`, `clientDateJoined`, `addressID`, `primaryContactID`, `secondaryContactID`)
 VALUES
@@ -108,8 +108,8 @@ VALUES
 
 INSERT INTO `systems` (`systemName`, `mainAddressID`, `mainPhone`, `clientID`)
 VALUES
-('Main/Single', 1, '6077759143', 1),
-('Main/Single', 2, '6072572410', 2);
+('Main/Single', 1, '5555555555', 1),
+('Main/Single', 2, '5555555555', 2);
 
 INSERT INTO `backups` (`backupName`, `backupAddedDate`, `systemID`)
 VALUES
